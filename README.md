@@ -3,12 +3,12 @@ Chandhini Grandhi, cgrandhi@ucsd.edu
 
 ## Abstract
 
-In this project, I am planning to produce audio based on emotions detected from tweets. The architecture consists of three phases:
+This project produces audio based on emotions detected from tweets. The architecture consists of three phases:
 1. Perform Sentiment analysis on data and classify the emotion of the tweet. I used Random Forest Classifier to achieve this and I am only considering the two emotions- happiness, sadness
 2. Perform Text-to-Speech synthesis by using a tacotron model for the tweet entered. 
 3. Generate new audio based on the emotion detected by using a Wavenet Model.
 
-I am using a pretrained Tacotron model discussed in class. I trained the Wavenet model on the following emotional-audio dataset https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio. This project can be extended to audio style transfer where it can detect the emotion and perform style transfer on the audio to concatenate the original audio with a stylized audio. 
+I am using a pretrained Tacotron model. I trained the Wavenet model on the following emotional-audio dataset https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio. This project can be extended to audio style transfer where it can detect the emotion and perform style transfer on the audio to concatenate the original audio with a stylized audio. 
 
 ## Model/Data
 
