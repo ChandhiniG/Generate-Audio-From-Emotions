@@ -1,5 +1,3 @@
-# Project 3 Generative Audio
-
 Chandhini Grandhi, cgrandhi@ucsd.edu
 
 
